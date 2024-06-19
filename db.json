@@ -28,38 +28,14 @@
   },
   "tickets": [
     {
-      "id": "1",
-      "title": "Ticket 1",
-      "status": "Open",
-      "priority": "High"
-    },
-    {
-      "id": "4",
-      "title": "Ticket 4",
-      "status": "Open",
-      "priority": "Medium"
-    },
-    {
       "id": "5",
-      "title": "Ticket 5",
-      "status": "In Progress",
-      "priority": "High"
-    },
-    {
-      "id": "e4f7",
-      "title": "Bush",
-      "status": "In Progress",
-      "priority": "High"
-    },
-    {
-      "id": "e2f5",
-      "title": "Ghum",
+      "title": "Goa",
       "status": "Open",
       "priority": "High"
     },
     {
       "id": "8b6f",
-      "title": "Hello",
+      "title": "Hello World",
       "status": "Open",
       "priority": "Low"
     },

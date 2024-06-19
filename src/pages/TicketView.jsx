@@ -7,6 +7,7 @@ import {
   AlertTitle,
   AlertDescription,
 } from '@chakra-ui/react'
+import DeletePermition from '../componentes/DeletePermition'
 
 
 const TicketView = () => {
@@ -94,8 +95,9 @@ const TicketView = () => {
           <div id="ticket-priority">{ticketData.priority}</div>
         </div>
         <div className="button-container">
-          <a id="edit-button" className="button" href="#">Edit</a>
-          <button className="button delete-button" onClick={deleteTicket}>Delete</button>
+          <a id="edit-button" className="button" href={`/ticketedit/${ticketData.id}`}>Edit</a>
+          {/* <button className="button delete-button" onClick={deleteTicket} >Delete</button> */}
+          <DeletePermition delete={deleteTicket} />
         </div>
       </div>
 

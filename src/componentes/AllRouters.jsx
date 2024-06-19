@@ -23,7 +23,7 @@ const AllRouters = () => {
         <Route path="/tickets" element={<Tickets/>}/>
         <Route path="/ticketview" element={<TicketView/>}/>
         <Route path="/ticketview/:id" element={<TicketView/>}/>
-        <Route path="/ticketedit" element={<TicketEdit/>}/>
+        <Route path="/ticketedit/:id" element={<TicketEdit/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/ticketcreate" element={<TicketCreate/>}/>
         <Route path="/logout" element={<Logout/>}/>
