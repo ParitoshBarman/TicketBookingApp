@@ -44,6 +44,12 @@
       "title": "New Ticket",
       "status": "In Progress",
       "priority": "Low"
+    },
+    {
+      "id": "79e8",
+      "title": "Build Test",
+      "status": "Closed",
+      "priority": "High"
     }
   ]
 }
